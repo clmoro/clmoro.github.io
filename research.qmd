@@ -1,0 +1,53 @@
+---
+title: "Research"
+---
+
+## Research Overview
+
+My work lies at the intersection of **generative modeling, reinforcement learning, and robotics**.
+
+The central question behind my research is:
+
+> How can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?
+
+My research investigates how **generative priors can be combined with reinforcement learning** to guide exploration and optimize behavior beyond the training data. I initially explored the **out-of-distribution behavior of generative policies**, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment.
+
+## Main Research Directions
+
+### Generative Imitation Learning Priors
+
+I study **generative policies as behavioral priors for robot learning**, including diffusion and flow-based policies and vision-language-action models. I am particularly interested in their generalization and **out-of-distribution behavior beyond the demonstrations used for training**.
+
+### Online Exploration and Optimization
+
+I investigate how **generative priors can be combined with reinforcement learning** to guide online exploration. The goal is to move beyond pure imitation learning, enabling agents to **optimize and acquire behaviors beyond their training data** through interaction with the environment.
+
+### Real-World Robotics
+
+I validate these ideas on **real robotic systems**, with a focus on manipulation and embodied decision-making. My work connects generative modeling and reinforcement learning with real-world experimentation, multimodal perception, and sim-to-real evaluation.
+
+## Research Experience
+
+### Ph.D. Researcher — IDSIA USI–SUPSI
+**2024–present · Lugano, Switzerland**
+
+Research on generative optimization and exploration for robotic learning, with emphasis on diffusion/flow policies, VLA models, reinforcement learning, generative in-context learning, and multimodal foundation models.
+
+### Visiting M.Sc. Researcher — IRIDIA, Université Libre de Bruxelles
+**2023 · Brussels, Belgium**
+
+Developed Byzantine-fault-tolerant Swarm-SLAM methods using blockchain-based smart contracts and geometric consensus.
+
+## Funded Projects & Industrial Collaborations
+
+### ACHEAS — Automatic Robotic Platform for the Aerospace Industry
+**2024–2026**
+
+Research contributor to the EUREKA Eurostars project, Grant Agreement No. 3616.
+
+Worked on learning-based methods for industrial robotic manipulation and automation.
+
+### Klepsydra Technologies AG
+**2024**
+
+Industrial research collaboration on high-performance AI and robotics.

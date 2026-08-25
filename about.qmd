@@ -1,0 +1,48 @@
+---
+title: "About"
+---
+
+I am a Ph.D. researcher at **IDSIA USI–SUPSI** in Lugano, Switzerland, where I work on **Generative AI for Robotic Systems**.
+
+My research lies at the intersection of generative modeling, reinforcement learning, optimization, and robotics, with a particular focus on generative policies, robot learning, and embodied intelligence.
+
+My background is in automation, control, machine learning, and robotics. I received my M.Sc. and B.Sc. degrees in Automation Engineering from **Politecnico di Milano**. During my M.Sc., I was a visiting researcher at **IRIDIA, Université Libre de Bruxelles**, where I worked on SLAM for swarms of robots.
+
+## Beyond Research
+
+I come from **Valtellina**, a valley in the Italian Alps.
+
+I am passionate about **alpinism and climbing**, and I spend much of my free time in the mountains. I particularly enjoy rock climbing and mountaineering.
+
+::: {.mountain-gallery}
+
+::: {.gallery-item}
+[![](images/alpinism-1.jpeg){.gallery-img}](images/alpinism-1.jpeg){.lightbox gallery="alpinism"}
+<div class="gallery-caption">Punta Albigna, Switzerland</div>
+:::
+
+::: {.gallery-item}
+[![](images/alpinism-2.jpeg){.gallery-img}](images/alpinism-2.jpeg){.lightbox gallery="alpinism"}
+<div class="gallery-caption">Grimsel Pass, Switzerland</div>
+:::
+
+::: {.gallery-item}
+[![](images/alpinism-3.jpeg){.gallery-img}](images/alpinism-3.jpeg){.lightbox gallery="alpinism"}
+<div class="gallery-caption">Grimsel Pass, Switzerland</div>
+:::
+
+::: {.gallery-item}
+[![](images/alpinism-4.jpeg){.gallery-img}](images/alpinism-4.jpeg){.lightbox gallery="alpinism"}
+<div class="gallery-caption">Val Ferret, Italy</div>
+:::
+
+:::
+
+## Contact
+
+**Angelo Moroncelli**  
+Lugano, Switzerland
+
+[angelo.moroncelli@supsi.ch](mailto:angelo.moroncelli@supsi.ch)
+
+[GitHub](https://github.com/clmoro) · [Google Scholar](https://scholar.google.com/citations?user=3u1DpR4AAAAJ)

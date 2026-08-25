@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Angelo Moroncelli"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/clmoro
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=3u1DpR4AAAAJ
+      - icon: envelope
+        href: mailto:angelo.moroncelli@supsi.ch
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    lightbox: true
+
+execute:
+  freeze: auto

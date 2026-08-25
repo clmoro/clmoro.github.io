@@ -1,0 +1,43 @@
+---
+title: "Teaching & Talks"
+---
+
+## Teaching
+
+### Teaching Assistant — Linear Algebra I
+**Spring 2026 · SUPSI**  
+B.Sc. in Data Science and Artificial Intelligence.
+
+### Teaching Assistant — Linear Algebra II
+**Fall 2025 · SUPSI**  
+B.Sc. in Data Science and Artificial Intelligence.
+
+### Teaching Assistant — Machine Learning for Mechanical Systems
+**Spring 2025 · Politecnico di Milano**  
+Lectures and tutorials on Generative AI.
+
+### Teaching Assistant — Robotics
+**Fall 2024 · SUPSI**  
+B.Sc. in Data Science and Artificial Intelligence.
+
+## Invited Lectures & Seminars
+
+### Robots that Learn from Imitation and Reinforcement
+**2026 · Politecnico di Milano**  
+Seminar in the Ph.D. course *AI Applications to Industrial Robotics*.
+
+### From Generative Priors to Grounded Control
+**2026 · IDSIA USI–SUPSI**  
+WIP Seminar Series.
+
+### Jump-start RL Agents with VLA Regularization
+**2026 · Swiss AI CSCS Retreat**  
+Foundation Models for Egocentric Vision & Robotics.
+
+### Generative AI for Robotics
+**2025 · Politecnico di Milano**  
+Seminar in the Ph.D. course *AI Applications to Industrial Robotics*.
+
+## Student Supervision
+
+Since 2025, I have co-supervised M.Sc. thesis students from **Politecnico di Milano** and **ETH Zurich** on topics related to generative AI, reinforcement learning, and robotics.
