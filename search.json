@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a Ph.D. researcher at IDSIA USI–SUPSI in Lugano, Switzerland, where I work on Generative AI for Robotic Systems.\nMy research lies at the intersection of generative modeling, reinforcement learning, optimization, and robotics, with a particular focus on generative policies, robot learning, and embodied intelligence.\nMy background is in automation, control, machine learning, and robotics. I received my M.Sc. and B.Sc. degrees in Automation Engineering from Politecnico di Milano. During my M.Sc., I was a visiting researcher at IRIDIA, Université Libre de Bruxelles, where I worked on SLAM for swarms of robots."
+  },
+  {
+    "objectID": "about.html#beyond-research",
+    "href": "about.html#beyond-research",
+    "title": "About",
+    "section": "Beyond Research",
+    "text": "Beyond Research\nI come from Valtellina, a valley in the Italian Alps.\nI am passionate about alpinism and climbing, and I spend much of my free time in the mountains. I particularly enjoy rock climbing and mountaineering.\n\n\n\n\nPunta Albigna, Switzerland\n\n\n\n\n\nGrimsel Pass, Switzerland\n\n\n\n\n\nGrimsel Pass, Switzerland\n\n\n\n\n\nVal Ferret, Italy"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nAngelo Moroncelli\nLugano, Switzerland\nangelo.moroncelli@supsi.ch\nGitHub · Google Scholar"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Angelo Moroncelli",
+    "section": "",
+    "text": "Ph.D. Researcher — Generative AI for Robotics\nIDSIA USI–SUPSI · Lugano, Switzerland\nI work at the intersection of generative modeling, reinforcement learning, and robotics. My research investigates how generative optimization can enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations. I initially explored the out-of-distribution behavior of generative policies, investigating how they behave beyond their training distribution. More recently, I have been studying how generative priors, such as diffusion and flow-based policies and vision-language-action models, can be integrated with reinforcement learning to guide exploration and optimize behavior beyond the training data.\nGoogle Scholar GitHub Email Download CV"
+  },
+  {
+    "objectID": "index.html#selected-research",
+    "href": "index.html#selected-research",
+    "title": "Angelo Moroncelli",
+    "section": "Selected Research",
+    "text": "Selected Research\n\n\n\n\nVision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents\nIEEE ICRA 2026 Workshop on RL4IL\nUsing VLA priors to jump-start reinforcement-learning agents for robotic control.\narXiv\n\n\n\n\n\nDiffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics\nIEEE CDC 2026\nGenerative sequence modeling for in-context adaptation and learning of robot dynamics.\narXiv\n\n\n\n\n\nSynthLA\nIEEE/RSJ IROS 2026\nSynthetic language-action policies for zero-shot real-world manipulation through structured perception.\nPublications\n\n\n\n\n\nThe Duality of Generative AI and Reinforcement Learning in Robotics\nInformation Fusion, 2025\nA review of how generative AI and reinforcement learning complement each other in robotic systems.\nPublications\n\n\n\nView all publications →"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Angelo Moroncelli",
+    "section": "Research Interests",
+    "text": "Research Interests\n\n\nGenerative Policies\nDiffusion models, flow-based models, and generative priors for robot learning.\n\n\nVision-Language-Action Models\nFoundation models for grounding high-level semantics into robotic control.\n\n\nReinforcement Learning\nExploration, jump-starting, robustness, and data-efficient skill acquisition.\n\n\nRobot Manipulation\nReal-world experimentation, sim-to-real learning, and embodied decision-making."
+  },
+  {
+    "objectID": "index.html#current-position",
+    "href": "index.html#current-position",
+    "title": "Angelo Moroncelli",
+    "section": "Current Position",
+    "text": "Current Position\nI am a Ph.D. researcher at IDSIA USI–SUPSI in Lugano, Switzerland, where I work on Generative AI for Robotic Systems.\nI am supervised by Prof. Loris Roveda, with Prof. Alessandro Giusti and Prof. Luca Gambardella as advisors."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching & Talks",
+    "section": "",
+    "text": "Spring 2026 · SUPSI\nB.Sc. in Data Science and Artificial Intelligence.\n\n\n\nFall 2025 · SUPSI\nB.Sc. in Data Science and Artificial Intelligence.\n\n\n\nSpring 2025 · Politecnico di Milano\nLectures and tutorials on Generative AI.\n\n\n\nFall 2024 · SUPSI\nB.Sc. in Data Science and Artificial Intelligence."
+  },
+  {
+    "objectID": "teaching.html#teaching",
+    "href": "teaching.html#teaching",
+    "title": "Teaching & Talks",
+    "section": "",
+    "text": "Spring 2026 · SUPSI\nB.Sc. in Data Science and Artificial Intelligence.\n\n\n\nFall 2025 · SUPSI\nB.Sc. in Data Science and Artificial Intelligence.\n\n\n\nSpring 2025 · Politecnico di Milano\nLectures and tutorials on Generative AI.\n\n\n\nFall 2024 · SUPSI\nB.Sc. in Data Science and Artificial Intelligence."
+  },
+  {
+    "objectID": "teaching.html#invited-lectures-seminars",
+    "href": "teaching.html#invited-lectures-seminars",
+    "title": "Teaching & Talks",
+    "section": "Invited Lectures & Seminars",
+    "text": "Invited Lectures & Seminars\n\nRobots that Learn from Imitation and Reinforcement\n2026 · Politecnico di Milano\nSeminar in the Ph.D. course AI Applications to Industrial Robotics.\n\n\nFrom Generative Priors to Grounded Control\n2026 · IDSIA USI–SUPSI\nWIP Seminar Series.\n\n\nJump-start RL Agents with VLA Regularization\n2026 · Swiss AI CSCS Retreat\nFoundation Models for Egocentric Vision & Robotics.\n\n\nGenerative AI for Robotics\n2025 · Politecnico di Milano\nSeminar in the Ph.D. course AI Applications to Industrial Robotics."
+  },
+  {
+    "objectID": "teaching.html#student-supervision",
+    "href": "teaching.html#student-supervision",
+    "title": "Teaching & Talks",
+    "section": "Student Supervision",
+    "text": "Student Supervision\nSince 2025, I have co-supervised M.Sc. thesis students from Politecnico di Milano and ETH Zurich on topics related to generative AI, reinforcement learning, and robotics."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My work lies at the intersection of generative modeling, reinforcement learning, and robotics.\nThe central question behind my research is:\n\nHow can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?\n\nMy research investigates how generative priors can be combined with reinforcement learning to guide exploration and optimize behavior beyond the training data. I initially explored the out-of-distribution behavior of generative policies, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment."
+  },
+  {
+    "objectID": "research.html#research-overview",
+    "href": "research.html#research-overview",
+    "title": "Research",
+    "section": "",
+    "text": "My work lies at the intersection of generative modeling, reinforcement learning, and robotics.\nThe central question behind my research is:\n\nHow can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?\n\nMy research investigates how generative priors can be combined with reinforcement learning to guide exploration and optimize behavior beyond the training data. I initially explored the out-of-distribution behavior of generative policies, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment."
+  },
+  {
+    "objectID": "research.html#main-research-directions",
+    "href": "research.html#main-research-directions",
+    "title": "Research",
+    "section": "Main Research Directions",
+    "text": "Main Research Directions\n\nGenerative Imitation Learning Priors\nI study generative policies as behavioral priors for robot learning, including diffusion and flow-based policies and vision-language-action models. I am particularly interested in their generalization and out-of-distribution behavior beyond the demonstrations used for training.\n\n\nOnline Exploration and Optimization\nI investigate how generative priors can be combined with reinforcement learning to guide online exploration. The goal is to move beyond pure imitation learning, enabling agents to optimize and acquire behaviors beyond their training data through interaction with the environment.\n\n\nReal-World Robotics\nI validate these ideas on real robotic systems, with a focus on manipulation and embodied decision-making. My work connects generative modeling and reinforcement learning with real-world experimentation, multimodal perception, and sim-to-real evaluation."
+  },
+  {
+    "objectID": "research.html#research-experience",
+    "href": "research.html#research-experience",
+    "title": "Research",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nPh.D. Researcher — IDSIA USI–SUPSI\n2024–present · Lugano, Switzerland\nResearch on generative optimization and exploration for robotic learning, with emphasis on diffusion/flow policies, VLA models, reinforcement learning, generative in-context learning, and multimodal foundation models.\n\n\nVisiting M.Sc. Researcher — IRIDIA, Université Libre de Bruxelles\n2023 · Brussels, Belgium\nDeveloped Byzantine-fault-tolerant Swarm-SLAM methods using blockchain-based smart contracts and geometric consensus."
+  },
+  {
+    "objectID": "research.html#funded-projects-industrial-collaborations",
+    "href": "research.html#funded-projects-industrial-collaborations",
+    "title": "Research",
+    "section": "Funded Projects & Industrial Collaborations",
+    "text": "Funded Projects & Industrial Collaborations\n\nACHEAS — Automatic Robotic Platform for the Aerospace Industry\n2024–2026\nResearch contributor to the EUREKA Eurostars project, Grant Agreement No. 3616.\nWorked on learning-based methods for industrial robotic manipulation and automation.\n\n\nKlepsydra Technologies AG\n2024\nIndustrial research collaboration on high-performance AI and robotics."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Equal contribution is marked with *."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2026",
+    "text": "2026\n\nAngelo Moroncelli, R. Zanetti, M. Maccarini, and L. Roveda.\nVision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents.\nIEEE ICRA 2026 Workshop on Reinforcement Learning for Imitation Learning (RL4IL).\npaper\nAngelo Moroncelli*, M. Rufolo*, G. C. Aydin*, A. A. Shahid, and L. Roveda.\nDiffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics.\nIEEE Conference on Decision and Control (CDC), 2026.\npaper\nM. Maccarini*, Angelo Moroncelli*, A. A. Shahid, S. Mara, M. Nava, and L. Roveda.\nSynthLA: Synthetic Language–Action Policies for Zero-shot Real-world Manipulation via Structured Perception.\nIEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.\nSamuele Mara, Angelo Moroncelli, Marco Maccarini, and Loris Roveda.\nFruit3DGS: A General Fruit Counting and Localization Framework Leveraging Semantic-Guided 3D Gaussian Splatting and Contrastive Learning.\nIEEE ICRA 2026 Workshop on Agricultural Robotics.\nBest Paper Award for Methodological Contribution."
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\nAngelo Moroncelli, V. Soni, M. Forgione, D. Piga, B. Spahiu, and L. Roveda.\nThe Duality of Generative AI and Reinforcement Learning in Robotics: A Review.\nInformation Fusion, 2025.\npaper\nA. A. Shahid, Angelo Moroncelli, D. Brscic, T. Kanda, and L. Roveda.\nGEAR: Gaze-Enabled Human-Robot Collaborative Assembly.\nIEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.\npaper\nAngelo Moroncelli, S. Populus, A. Rossi, E. Carpanzano, and L. Roveda.\nVision-based robotic disassembly of aircraft engines with YOLO-SAM: a novel method for task orientation estimation.\nCIRP Annals, 2025.\nOral presentation at GA2025.\npaper\nM. Maccarini, Angelo Moroncelli, E. Carpanzano, and L. Roveda.\nFLARE: Fine-tuned Large Language Models for Resource-Efficient Action Generation in Robotics.\nProcedia CIRP, 2025.\npaper\nA. Leanza, Angelo Moroncelli, G. Vizzari, F. Braghin, L. Roveda, and B. Spahiu.\nConceptBot: Enhancing Robot’s Autonomy through Task Decomposition with Large Language Models and Knowledge Graph.\narXiv preprint arXiv:2509.00570, 2025.\npaper"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\nAngelo Moroncelli, A. Pacheco, V. Strobel, P.-Y. Lajoie, M. Dorigo, and A. Reina.\nByzantine Fault Detection in Swarm-SLAM Using Blockchain and Geometric Constraints.\n14th International Conference on Swarm Intelligence (ANTS).\nOral presentation.\npaper"
+  },
+  {
+    "objectID": "publications.html#profiles",
+    "href": "publications.html#profiles",
+    "title": "Publications",
+    "section": "Profiles",
+    "text": "Profiles\n\nGoogle Scholar\nGitHub"
+  }
+]
