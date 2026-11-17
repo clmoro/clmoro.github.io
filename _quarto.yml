@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Angelo Moroncelli"
+  description: "Research in generative control and robot learning: geometric steering of frozen generators, certified action selection, and policy-conditioned viability."
   navbar:
     left:
       - href: index.qmd

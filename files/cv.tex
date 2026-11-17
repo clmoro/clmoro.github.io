@@ -1,0 +1,135 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.55cm]{geometry}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx,enumitem,xcolor}
+\usepackage[unicode,hidelinks]{hyperref}
+\hypersetup{pdftitle={Angelo Moroncelli — Curriculum Vitae},pdfauthor={Angelo Moroncelli},pdfsubject={Generative control and robot learning}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\arraystretch}{1.03}
+\makeatletter
+\renewcommand{\section}{\@ifstar\cvsection\cvsection}
+\newcommand{\cvsection}[1]{\par\addvspace{9pt}{\large\bfseries #1\par}\nobreak\vspace{4pt}\hrule\nobreak\vspace{5pt}}
+\makeatother
+\pagestyle{empty}
+\begin{document}
+{\LARGE\bfseries Angelo Moroncelli}\hfill{\small Ph.D. Researcher — Generative Control \& Robot Learning}\\[3pt]
+\href{mailto:angelo.moroncelli@supsi.ch}{angelo.moroncelli@supsi.ch}\quad Lugano, Switzerland\quad
+\href{https://clmoro.github.io}{Website}\quad\href{https://github.com/clmoro}{GitHub}\quad
+\href{https://scholar.google.com/citations?user=3u1DpR4AAAAJ}{Google Scholar}
+
+My research focuses on generative control, at the intersection of generative modeling, control theory, optimization, and reinforcement learning. I study how frozen generative models can meet new goals and constraints at deployment: using local inverse geometry to steer diffusion generators, and certified action selection with policy-conditioned viability to preserve a generative policy's future ability to act safely. My broader work connects diffusion/flow policies and vision-language-action models with reinforcement learning, in-context adaptation, and robot manipulation, aiming to turn learned behavioral priors into useful, reliable closed-loop decisions.
+\section*{Selected Highlights}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2026} & Third-year Ph.D. student at IDSIA USI–SUPSI, working on generative control, safe generative policies, and robot learning.\\[4pt]
+\textbf{2026} & Spectral Steering and Certify, Then Select: new work on geometric steering and viability-aware runtime control of frozen diffusion models. Both under review.\\[4pt]
+\textbf{2026} & Work on Vision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents (ICRA RL4IL), The duality of generative AI and reinforcement learning in robotics (published in Information Fusion), and Diffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics (accepted at IEEE CDC).\\[4pt]
+\textbf{2025} & Swiss European Mobility (SEMP) Programme scholarship supporting participation in the Ellis Machine Learning Summer School.\\[4pt]
+\textbf{2025–2026} & Invited lecturer in the Politecnico di Milano Ph.D. course AI Applications to Industrial Robotics.\\[4pt]
+\textbf{2024–present} & IDSIA USI–SUPSI Doctoral Fellowship in Generative AI for Robotic Systems.
+\end{tabularx}
+
+\section*{Selected Publications}
+\begin{enumerate}[label={[\arabic*]},leftmargin=1.5em,itemsep=4pt,topsep=3pt]
+\item \textbf{Angelo Moroncelli}, Alessandro Leanza, and Loris Roveda. “Spectral Steering: Local Inverse Geometry for Frozen Diffusion Generators.” Under review, 2026. \href{https://arxiv.org/abs/2611.19572}{arXiv:2611.19572}.
+\item \textbf{Angelo Moroncelli} and Loris Roveda. “Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies.” Under review, 2026. \href{https://arxiv.org/abs/2611.19047}{arXiv:2611.19047}.
+\item \textbf{Angelo Moroncelli}, R. Zanetti, M. Maccarini, and L. Roveda. “Vision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents.” ICRA 2026 Workshop on Reinforcement Learning for Imitation Learning (RL4IL), 2026.
+\item \textbf{Angelo Moroncelli}\textsuperscript{*} , M. Rufolo\textsuperscript{*} , G. C. Aydin\textsuperscript{*} , A. A. Shahid, and L. Roveda. “Diffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics.” IEEE Conference on Decision and Control (CDC), 2026.
+\item M. Maccarini\textsuperscript{*}, \textbf{Angelo Moroncelli}\textsuperscript{*} , A. A. Shahid, S. Mara, M. Nava, and L. Roveda. “SynthLA: Synthetic Language–Action Policies for Zero-shot Real-world Manipulation via Structured Perception.” IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.
+\item \textbf{Angelo Moroncelli}, V. Soni, M. Forgione, D. Piga, B. Spahiu, and L. Roveda. “The duality of generative AI and reinforcement learning in robotics: A review.” Information Fusion, 2025.
+\end{enumerate}
+{\footnotesize * denotes equal contribution.}
+
+\section*{Education}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2024–present} & Ph.D. Student, Faculty of Informatics, IDSIA USI–SUPSI, Lugano, Switzerland. Recipient of the IDSIA USI–SUPSI Doctoral Fellowship in Generative AI for Robotic Systems. Supervised by Prof. Loris Roveda; advised by Prof. Alessandro Giusti and Prof. Luca Gambardella.\\[4pt]
+\textbf{2020–2023} & M.Sc. in Automation and Control Engineering, Politecnico di Milano, Milan, Italy. Master thesis: Byzantine Fault-Tolerant Swarm-SLAM through Blockchain-based Smart Contracts. Research visit at IRIDIA, Université Libre de Bruxelles.\\[4pt]
+\textbf{2017–2020} & B.Sc. in Automation Engineering, Politecnico di Milano, Milan, Italy.
+\end{tabularx}
+
+\newpage
+\section*{Research Experience}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2024–present} & Ph.D. Researcher, IDSIA USI–SUPSI, Lugano. Research on generative control: local inverse geometry for frozen diffusion generators, certified action selection, policy-conditioned viability, generative priors for reinforcement learning, and in-context dynamics adaptation.\\[2pt]
+\textbf{2023} & Visiting M.Sc. Researcher, IRIDIA, Université Libre de Bruxelles, Brussels. Developed Byzantine-fault-tolerant Swarm-SLAM methods using blockchain-based smart contracts and geometric consensus. Supervised by Andreagiovanni Reina and Francesco Amigoni, with collaborators Volker Strobel and Alexandre Pacheco.
+\end{tabularx}
+
+\section*{Selected Talks and Seminars}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2026} & Robots that Learn from Imitation and Reinforcement. Seminar in the Ph.D. course AI Applications to Industrial Robotics, Politecnico di Milano.\\[2pt]
+\textbf{2026} & From Generative Priors to Grounded Control. WIP Seminar Series, IDSIA USI–SUPSI.\\[2pt]
+\textbf{2026} & Jump-start RL agents with VLA regularization. Swiss AI CSCS Retreat, vertical area Foundation Models for Egocentric Vision \& Robotics.\\[2pt]
+\textbf{2025} & Generative AI for Robotics. Seminar in the Ph.D. course AI Applications to Industrial Robotics, Politecnico di Milano.
+\end{tabularx}
+
+\section*{Teaching}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{Spring 2026} & Teaching Assistant – Linear Algebra I, B.Sc. in Data Science and Artificial Intelligence, SUPSI.\\[2pt]
+\textbf{Fall 2025} & Teaching Assistant – Linear Algebra II, B.Sc. in Data Science and Artificial Intelligence, SUPSI.\\[2pt]
+\textbf{Spring 2025} & Teaching Assistant – Machine Learning for Mechanical Systems, Politecnico di Milano. Lectures/tutorials on Generative AI.\\[2pt]
+\textbf{Fall 2024} & Teaching Assistant – Robotics, B.Sc. in Data Science and Artificial Intelligence, SUPSI.
+\end{tabularx}
+
+\section*{Student Supervision}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2025–present} & Co-supervision of M.Sc. thesis students from Politecnico di Milano and ETH Zurich on topics related to generative AI, reinforcement learning, and robotics.
+\end{tabularx}
+
+\section*{Awards and Scholarships}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2025} & SEMP Scholarship, travel support for the Ellis Machine Learning Summer School.\\[2pt]
+\textbf{2024–present} & IDSIA USI–SUPSI Doctoral Fellowship, Generative AI for Robotic Systems.\\[2pt]
+\textbf{2021} & EBT Sondrio Merit Scholarship, EUR 1,000, for academic merit during B.Sc. studies.
+\end{tabularx}
+
+\section*{Selected Advanced Courses, Schools and Workshops}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2025} & Ellis Machine Learning Summer School – supported by SEMP scholarship, UCSP, Peru.\\[2pt]
+\textbf{2024} & 7th Advanced Course on Data Science \& Machine Learning, Castiglione della Pescaia, Italy.\\[2pt]
+\textbf{2024} & 8th Workshop on Nonlinear System Identification Benchmarks, Lugano, Switzerland.\\[2pt]
+\textbf{2024} & CSCS–USI Summer University on Effective High-Performance Computing and Data Analytics.\\[2pt]
+\textbf{2024} & Swiss AI CSCS Workshop, ETH/EPFL, Zurich, Switzerland.\\[2pt]
+\textbf{2024} & USI Ph.D. Course: Graph Deep Learning.\\[2pt]
+\textbf{2024} & 14th International Conference on Swarm Intelligence (ANTS).\\[2pt]
+\textbf{2024} & European Robotics Forum.
+\end{tabularx}
+
+\section*{Funded Projects and Industrial Collaborations}
+\begin{tabularx}{\textwidth}{@{}p{0.165\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{2024–2026} & ACHEAS – Automatic Robotic Platform for the Aerospace Industry. Research contributor to the EUREKA Eurostars project, Grant Agreement No. 3616. Worked on learning-based methods for industrial robotic manipulation and automation.\\[2pt]
+\textbf{2024} & Klepsydra Technologies AG. Industrial research collaboration on high-performance AI and robotics.
+\end{tabularx}
+
+\newpage
+\section*{Publications and Preprints}
+\begin{enumerate}[label={[\arabic*]},leftmargin=1.5em,itemsep=4pt,topsep=3pt]
+\item \textbf{Angelo Moroncelli}, Alessandro Leanza, and Loris Roveda. “Spectral Steering: Local Inverse Geometry for Frozen Diffusion Generators.” Under review, 2026. \href{https://arxiv.org/abs/2611.19572}{arXiv:2611.19572}.
+\item \textbf{Angelo Moroncelli} and Loris Roveda. “Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies.” Under review, 2026. \href{https://arxiv.org/abs/2611.19047}{arXiv:2611.19047}.
+\item \textbf{Angelo Moroncelli}, R. Zanetti, M. Maccarini, and L. Roveda. “Vision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents.” ICRA 2026 Workshop on Reinforcement Learning for Imitation Learning (RL4IL), 2026. Preprint: \href{https://arxiv.org/abs/2604.13733}{arXiv:2604.13733}.
+\item \textbf{Angelo Moroncelli}\textsuperscript{*} , M. Rufolo\textsuperscript{*} , G. C. Aydin\textsuperscript{*} , A. A. Shahid, and L. Roveda. “Diffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics.” IEEE Conference on Decision and Control (CDC), 2026. Preprint: \href{https://arxiv.org/abs/2604.13366}{arXiv:2604.13366}.
+\item M. Maccarini\textsuperscript{*}, \textbf{Angelo Moroncelli}\textsuperscript{*} , A. A. Shahid, S. Mara, M. Nava, and L. Roveda. “SynthLA: Synthetic Language–Action Policies for Zero-shot Real-world Manipulation via Structured Perception.” IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), ICRA 2026 Workshop on Synthetic Data for Robot Learning, 2026.
+\item \textbf{Angelo Moroncelli}, V. Soni, M. Forgione, D. Piga, B. Spahiu, and L. Roveda. “The duality of generative AI and reinforcement learning in robotics: A review.” Information Fusion, 129:104003, 2025.
+\item Samuele Mara, \textbf{Angelo Moroncelli}, Marco Maccarini, Loris Roveda “Fruit3DGS: a general Fruit counting and localization framework leveraging semantic-guided 3D Gaussian Splatting and contrastive learning”, ICRA 2026 Workshop on Agricultural Robotics, 2026. (best paper award for methodological contribution)
+\item A. A. Shahid, \textbf{Angelo Moroncelli}, D. Brscic, T. Kanda, and L. Roveda. “GEAR: Gaze-Enabled Human-Robot Collaborative Assembly.” IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 4457–4464, 2025.
+\item \textbf{Angelo Moroncelli}, S. Populus, A. Rossi, E. Carpanzano, and L. Roveda. “Vision-based robotic disassembly of aircraft engines with YOLO-SAM: a novel method for task orientation estimation.” CIRP Annals, 74(1):55–59, 2025. (oral presentation at GA2025)
+\item M. Maccarini, \textbf{Angelo Moroncelli}, E. Carpanzano, and L. Roveda. “FLARE: Fine-tuned large LAnguage models for Resource-Efficient action generation in robotics.” Procedia CIRP, 134:759–764, 2025.
+\item A. Leanza, \textbf{Angelo Moroncelli}, G. Vizzari, F. Braghin, L. Roveda, and B. Spahiu. “ConceptBot: Enhancing Robot’s Autonomy through Task Decomposition with Large Language Models and Knowledge Graph.” arXiv preprint \href{https://arxiv.org/abs/2509.00570}{arXiv:2509.00570}, 2025.
+\item \textbf{Angelo Moroncelli}, A. Pacheco, V. Strobel, P.-Y. Lajoie, M. Dorigo, and A. Reina. “Byzantine Fault Detection in Swarm-SLAM Using Blockchain and Geometric Constraints.” 14th International Conference on Swarm Intelligence (ANTS), Lecture Notes in Computer Science, pp. 42–56, 2024. (oral presentation)
+\end{enumerate}
+{\footnotesize * denotes equal contribution.}
+
+\section*{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth}@{\hspace{8pt}}X@{}}
+\textbf{Programming} & Python, C/C++, MATLAB; Git, Linux, Docker.\\[4pt]
+\textbf{Machine Learning} & JAX, PyTorch, TensorFlow; diffusion and flow models, vision-language-action models, reinforcement learning, generative in-context learning, multimodal and foundation models.\\[4pt]
+\textbf{Control \& Robotics} & Generative control, geometric steering, certified action selection, policy-conditioned viability; ROS/ROS2, robot learning, manipulation and control, SLAM; MuJoCo, ManiSkill, Isaac Lab; real-world experimentation and sim-to-real evaluation.\\[4pt]
+\textbf{ML Systems} & GPU training and inference, distributed training, experiment pipelines, model profiling and optimization.\\[4pt]
+\textbf{Languages} & Italian (native); English (professional); French (basic).
+\end{tabularx}
+
+\vfill
+{\footnotesize Last updated: November 2026.}
+\end{document}

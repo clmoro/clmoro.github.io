@@ -6,56 +6,66 @@ title: "Publications"
 
 ## 2026
 
-1. **Angelo Moroncelli**, R. Zanetti, M. Maccarini, and L. Roveda.  
+1. **Angelo Moroncelli**, Alessandro Leanza, and Loris Roveda.  
+   **Spectral Steering: Local Inverse Geometry for Frozen Diffusion Generators.**  
+   *Under review.*  
+   [arXiv:2611.19572](https://arxiv.org/abs/2611.19572)
+
+2. **Angelo Moroncelli** and Loris Roveda.  
+   **Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies.**  
+   *Under review.*  
+   [arXiv:2611.19047](https://arxiv.org/abs/2611.19047) · [Project & video](https://clmoro.github.io/cast/)
+
+3. **Angelo Moroncelli**, R. Zanetti, M. Maccarini, and L. Roveda.  
    **Vision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents.**  
    *IEEE ICRA 2026 Workshop on Reinforcement Learning for Imitation Learning (RL4IL).*  
    [paper](https://arxiv.org/abs/2604.13733)
 
-2. **Angelo Moroncelli\***, M. Rufolo\*, G. C. Aydin\*, A. A. Shahid, and L. Roveda.  
+4. **Angelo Moroncelli\***, M. Rufolo\*, G. C. Aydin\*, A. A. Shahid, and L. Roveda.  
    **Diffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics.**  
    *IEEE Conference on Decision and Control (CDC), 2026.*  
    [paper](https://arxiv.org/abs/2604.13366)
 
-3. M. Maccarini\*, **Angelo Moroncelli\***, A. A. Shahid, S. Mara, M. Nava, and L. Roveda.  
+5. M. Maccarini\*, **Angelo Moroncelli\***, A. A. Shahid, S. Mara, M. Nava, and L. Roveda.  
    **SynthLA: Synthetic Language–Action Policies for Zero-shot Real-world Manipulation via Structured Perception.**  
    *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.*
 
-4. Samuele Mara, **Angelo Moroncelli**, Marco Maccarini, and Loris Roveda.  
+6. Samuele Mara, **Angelo Moroncelli**, Marco Maccarini, and Loris Roveda.  
    **Fruit3DGS: A General Fruit Counting and Localization Framework Leveraging Semantic-Guided 3D Gaussian Splatting and Contrastive Learning.**  
    *IEEE ICRA 2026 Workshop on Agricultural Robotics.*  
    **Best Paper Award for Methodological Contribution.**
 
 ## 2025
 
-5. **Angelo Moroncelli**, V. Soni, M. Forgione, D. Piga, B. Spahiu, and L. Roveda.  
+7. **Angelo Moroncelli**, V. Soni, M. Forgione, D. Piga, B. Spahiu, and L. Roveda.  
    **The Duality of Generative AI and Reinforcement Learning in Robotics: A Review.**  
    *Information Fusion, 2025.*  
    [paper](https://www.sciencedirect.com/science/article/pii/S1566253525010656)
 
-6. A. A. Shahid, **Angelo Moroncelli**, D. Brscic, T. Kanda, and L. Roveda.  
+8. A. A. Shahid, **Angelo Moroncelli**, D. Brscic, T. Kanda, and L. Roveda.  
    **GEAR: Gaze-Enabled Human-Robot Collaborative Assembly.**  
    *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.*  
    [paper](https://ieeexplore.ieee.org/abstract/document/11247310)
 
-7. **Angelo Moroncelli**, S. Populus, A. Rossi, E. Carpanzano, and L. Roveda.  
+9. **Angelo Moroncelli**, S. Populus, A. Rossi, E. Carpanzano, and L. Roveda.  
    **Vision-based robotic disassembly of aircraft engines with YOLO-SAM: a novel method for task orientation estimation.**  
    *CIRP Annals, 2025.*  
    Oral presentation at GA2025.  
    [paper](https://www.sciencedirect.com/science/article/pii/S0007850625001106)
 
-8. M. Maccarini, **Angelo Moroncelli**, E. Carpanzano, and L. Roveda.  
+10. M. Maccarini, **Angelo Moroncelli**, E. Carpanzano, and L. Roveda.  
    **FLARE: Fine-tuned Large Language Models for Resource-Efficient Action Generation in Robotics.**  
    *Procedia CIRP, 2025.*  
    [paper](https://www.sciencedirect.com/science/article/pii/S2212827125005761)
 
-9. A. Leanza, **Angelo Moroncelli**, G. Vizzari, F. Braghin, L. Roveda, and B. Spahiu.  
+11. A. Leanza, **Angelo Moroncelli**, G. Vizzari, F. Braghin, L. Roveda, and B. Spahiu.  
    **ConceptBot: Enhancing Robot's Autonomy through Task Decomposition with Large Language Models and Knowledge Graph.**  
    *arXiv preprint arXiv:2509.00570, 2025.*  
    [paper](https://arxiv.org/abs/2509.00570)
 
 ## 2024
 
-10. **Angelo Moroncelli**, A. Pacheco, V. Strobel, P.-Y. Lajoie, M. Dorigo, and A. Reina.  
+12. **Angelo Moroncelli**, A. Pacheco, V. Strobel, P.-Y. Lajoie, M. Dorigo, and A. Reina.  
     **Byzantine Fault Detection in Swarm-SLAM Using Blockchain and Geometric Constraints.**  
     *14th International Conference on Swarm Intelligence (ANTS).*  
     Oral presentation.  

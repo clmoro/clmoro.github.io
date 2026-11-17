@@ -12,11 +12,13 @@ toc: false
 ::: {.hero-text}
 # Angelo Moroncelli
 
-**Ph.D. Researcher — Generative AI for Robotics**
+**Ph.D. Researcher — Generative Control & Robot Learning**
 
 IDSIA USI–SUPSI · Lugano, Switzerland
 
-I work at the intersection of **generative modeling, reinforcement learning, and robotics**. My research investigates how **generative optimization** can enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations. I initially explored the **out-of-distribution behavior of generative policies**, investigating how they behave beyond their training distribution. More recently, I have been studying how **generative priors, such as diffusion and flow-based policies and vision-language-action models, can be integrated with reinforcement learning** to guide exploration and optimize behavior beyond the training data.
+I study **generative control**: how pretrained generative models can meet new goals and constraints at deployment. My work connects **generative modeling, control, optimization, and reinforcement learning**, with robotics as a central application.
+
+My recent research asks how to **steer frozen diffusion generators** through their local geometry, and how to **select safe, useful actions from generative policies while preserving their future ability to act**. More broadly, I investigate how generative priors can support adaptation, exploration, and learning beyond demonstrations.
 
 [Google Scholar](https://scholar.google.com/citations?user=3u1DpR4AAAAJ){.btn .btn-primary}
 [GitHub](https://github.com/clmoro){.btn .btn-outline-primary}
@@ -28,6 +30,34 @@ I work at the intersection of **generative modeling, reinforcement learning, and
 ## Selected Research
 
 ::: {.paper-grid}
+
+::: {.paper-card}
+![](images/spectral-steering.png){.paper-image fig-alt="Spectral Steering uses local inverse geometry to map an output request into a correction of a frozen diffusion generator"}
+
+::: {.paper-card-body}
+### Spectral Steering: Local Inverse Geometry for Frozen Diffusion Generators
+
+**Under review**
+
+Using request-dependent local geometry to steer frozen diffusion models toward new objectives while preserving other output properties.
+
+[arXiv](https://arxiv.org/abs/2611.19572){.paper-link}
+:::
+:::
+
+::: {.paper-card}
+![](images/cast.png){.paper-image fig-alt="CAST-V and CAST-VL select viable routes around a new keep-out zone where a safety filter stalls"}
+
+::: {.paper-card-body}
+### Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies
+
+**Under review**
+
+Certifying and ranking a frozen policy's own actions to satisfy new constraints, complete the task, and retain safe continuations.
+
+[arXiv](https://arxiv.org/abs/2611.19047){.paper-link} · [Project & video](https://clmoro.github.io/cast/){.paper-link}
+:::
+:::
 
 ::: {.paper-card}
 ![](images/vla-jumpstart.png){.paper-image fig-alt="Overview of VLA jump-starting for reinforcement learning robotic agents"}
@@ -93,27 +123,27 @@ A review of how generative AI and reinforcement learning complement each other i
 
 ::: {.interest-grid}
 ::: {.interest-card}
-**Generative Policies**
+**Generative Control**
 
-Diffusion models, flow-based models, and generative priors for robot learning.
+Turning pretrained generative models into controllers that meet new goals and constraints at run time.
 :::
 
 ::: {.interest-card}
-**Vision-Language-Action Models**
+**Geometry of Steering**
 
-Foundation models for grounding high-level semantics into robotic control.
+Local inverse geometry, controllability, and structured edits of frozen diffusion generators.
 :::
 
 ::: {.interest-card}
-**Reinforcement Learning**
+**Safety & Viability**
 
-Exploration, jump-starting, robustness, and data-efficient skill acquisition.
+Certified action selection and preserving a generative policy's future safe control authority.
 :::
 
 ::: {.interest-card}
-**Robot Manipulation**
+**Learning Beyond Imitation**
 
-Real-world experimentation, sim-to-real learning, and embodied decision-making.
+Generative priors, reinforcement learning, and adaptation for robot manipulation and embodied decision-making.
 :::
 :::
 

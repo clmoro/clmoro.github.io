@@ -4,7 +4,7 @@ title: "About"
 
 I am a Ph.D. researcher at **IDSIA USI–SUPSI** in Lugano, Switzerland, where I work on **Generative AI for Robotic Systems**.
 
-My research lies at the intersection of generative modeling, reinforcement learning, optimization, and robotics, with a particular focus on generative policies, robot learning, and embodied intelligence.
+My research focuses on **generative control**: steering pretrained generative models toward new goals and constraints, and understanding when their outputs can support reliable decisions. I connect local inverse geometry, safe action selection, and policy-conditioned viability with reinforcement learning and robotics.
 
 My background is in automation, control, machine learning, and robotics. I received my M.Sc. and B.Sc. degrees in Automation Engineering from **Politecnico di Milano**. During my M.Sc., I was a visiting researcher at **IRIDIA, Université Libre de Bruxelles**, where I worked on SLAM for swarms of robots.
 

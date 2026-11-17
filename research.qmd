@@ -4,34 +4,42 @@ title: "Research"
 
 ## Research Overview
 
-My work lies at the intersection of **generative modeling, reinforcement learning, and robotics**.
+I work on **generative control**, at the intersection of generative modeling, control theory, optimization, and reinforcement learning.
 
 The central question behind my research is:
 
-> How can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?
+> How can a pretrained generative model meet new goals and constraints while retaining the behaviors that make it useful?
 
-My research investigates how **generative priors can be combined with reinforcement learning** to guide exploration and optimize behavior beyond the training data. I initially explored the **out-of-distribution behavior of generative policies**, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment.
+A generative model offers a rich distribution of possible outputs or actions. At deployment, we need to turn that distribution into useful decisions: change selected properties, respect constraints, and preserve the ability to keep acting. I study the **geometry and control authority of frozen generators**, and develop methods for steering and selecting their outputs without retraining the underlying model for each request.
 
 ## Main Research Directions
 
-### Generative Imitation Learning Priors
+### Geometry of Generative Steering
 
-I study **generative policies as behavioral priors for robot learning**, including diffusion and flow-based policies and vision-language-action models. I am particularly interested in their generalization and **out-of-distribution behavior beyond the demonstrations used for training**.
+In **Spectral Steering**, I study how a requested output change interacts with the local geometry of a frozen diffusion sampler. Request-specific analysis predicts when inverse correction can improve the direction of an edit; damped corrections and relinearization extend the approach to finite changes. The work connects structured generation with inverse problems across visual, audio, motion, and control tasks.
 
-### Online Exploration and Optimization
+[Spectral Steering — Under review](https://arxiv.org/abs/2611.19572)
 
-I investigate how **generative priors can be combined with reinforcement learning** to guide online exploration. The goal is to move beyond pure imitation learning, enabling agents to **optimize and acquire behaviors beyond their training data** through interaction with the environment.
+### Safe Generative Control and Viability
 
-### Real-World Robotics
+In **Certify, Then Select**, I study how frozen diffusion policies can respond to constraints absent from their demonstrations. CAST certifies candidate action chunks before ranking them for task performance. CAST-V and CAST-VL account for **policy-conditioned viability**: whether the policy will still be able to produce safe continuations after the current action. This connects safety certification with the control authority available through finite sampling.
 
-I validate these ideas on **real robotic systems**, with a focus on manipulation and embodied decision-making. My work connects generative modeling and reinforcement learning with real-world experimentation, multimodal perception, and sim-to-real evaluation.
+[Certify, Then Select — Under review](https://arxiv.org/abs/2611.19047) · [Project & video](https://clmoro.github.io/cast/)
+
+### Learning and Adaptation Beyond Demonstrations
+
+I also investigate how **diffusion and flow policies, vision-language-action models, and generative dynamics models** can support exploration and adaptation. My earlier work on VLA-guided reinforcement learning and generative in-context dynamics learning complements runtime control by studying how agents use prior knowledge and improve through interaction.
+
+### Robotics as a Testbed
+
+Robotic manipulation, motion generation, and dynamical systems provide concrete settings in which goals, constraints, and model limitations interact. My work combines theoretical analysis with simulation and real-world robot learning, connecting generative methods to closed-loop decisions and physical task performance.
 
 ## Research Experience
 
 ### Ph.D. Researcher — IDSIA USI–SUPSI
 **2024–present · Lugano, Switzerland**
 
-Research on generative optimization and exploration for robotic learning, with emphasis on diffusion/flow policies, VLA models, reinforcement learning, generative in-context learning, and multimodal foundation models.
+Research on generative control and robot learning, including geometric steering of frozen diffusion generators, certified action selection, policy-conditioned viability, generative priors for reinforcement learning, and in-context dynamics adaptation.
 
 ### Visiting M.Sc. Researcher — IRIDIA, Université Libre de Bruxelles
 **2023 · Brussels, Belgium**
