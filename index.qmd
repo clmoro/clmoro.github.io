@@ -1,6 +1,6 @@
 ---
-title: "Angelo Moroncelli"
-title-block-style: none
+title: ""
+pagetitle: "Angelo Moroncelli"
 page-layout: full
 toc: false
 ---
