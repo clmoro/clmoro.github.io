@@ -7,6 +7,8 @@ toc: false
 ::: {.hero}
 ::: {.hero-photo}
 ![](images/profile.jpeg){fig-alt="Angelo Moroncelli working with a robot in the IDSIA robotics lab"}
+
+![](images/alpinism-1.jpeg){fig-alt="Angelo Moroncelli climbing at Punta Albigna, Switzerland"}
 :::
 
 ::: {.hero-text}
