@@ -176,9 +176,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="angelo-moroncelli" class="level1 hero-text">
 <h1>Angelo Moroncelli</h1>
-<p><strong>Ph.D.&nbsp;Researcher — Generative AI for Robotics</strong></p>
+<p><strong>Ph.D.&nbsp;Researcher — Generative Control &amp; Robot Learning</strong></p>
 <p>IDSIA USI–SUPSI · Lugano, Switzerland</p>
-<p>I work at the intersection of <strong>generative modeling, reinforcement learning, and robotics</strong>. My research investigates how <strong>generative optimization</strong> can enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations. I initially explored the <strong>out-of-distribution behavior of generative policies</strong>, investigating how they behave beyond their training distribution. More recently, I have been studying how <strong>generative priors, such as diffusion and flow-based policies and vision-language-action models, can be integrated with reinforcement learning</strong> to guide exploration and optimize behavior beyond the training data.</p>
+<p>I study <strong>generative control</strong>: how pretrained generative models can meet new goals and constraints at deployment. My work connects <strong>generative modeling, control, optimization, and reinforcement learning</strong>, with robotics as a central application.</p>
+<p>My recent research asks how to <strong>steer frozen diffusion generators</strong> through their local geometry, and how to <strong>select safe, useful actions from generative policies while preserving their future ability to act</strong>. More broadly, I investigate how generative priors can support adaptation, exploration, and learning beyond demonstrations.</p>
 <p><a href="https://scholar.google.com/citations?user=3u1DpR4AAAAJ" class="btn btn-primary">Google Scholar</a> <a href="https://github.com/clmoro" class="btn btn-outline-primary">GitHub</a> <a href="mailto:angelo.moroncelli@supsi.ch" class="btn btn-outline-primary">Email</a> <a href="files/cv.pdf" class="btn btn-outline-primary">Download CV</a></p>
 </section>
 </div>
@@ -186,7 +187,25 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="selected-research">Selected Research</h2>
 <div class="paper-grid">
 <div class="paper-card">
-<p><a href="images/vla-jumpstart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/vla-jumpstart.png" class="paper-image img-fluid" alt="Overview of VLA jump-starting for reinforcement learning robotic agents"></a></p>
+<p><a href="images/spectral-steering.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/spectral-steering.png" class="paper-image img-fluid" alt="Spectral Steering uses local inverse geometry to map an output request into a correction of a frozen diffusion generator"></a></p>
+<section id="spectral-steering-local-inverse-geometry-for-frozen-diffusion-generators" class="level3 paper-card-body">
+<h3 class="anchored" data-anchor-id="spectral-steering-local-inverse-geometry-for-frozen-diffusion-generators">Spectral Steering: Local Inverse Geometry for Frozen Diffusion Generators</h3>
+<p><strong>Under review</strong></p>
+<p>Using request-dependent local geometry to steer frozen diffusion models toward new objectives while preserving other output properties.</p>
+<p><a href="https://arxiv.org/abs/2611.19572" class="paper-link">arXiv</a></p>
+</section>
+</div>
+<div class="paper-card">
+<p><a href="images/cast.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/cast.png" class="paper-image img-fluid" alt="CAST-V and CAST-VL select viable routes around a new keep-out zone where a safety filter stalls"></a></p>
+<section id="certify-then-select-viability-aware-runtime-steering-of-frozen-diffusion-policies" class="level3 paper-card-body">
+<h3 class="anchored" data-anchor-id="certify-then-select-viability-aware-runtime-steering-of-frozen-diffusion-policies">Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies</h3>
+<p><strong>Under review</strong></p>
+<p>Certifying and ranking a frozen policy’s own actions to satisfy new constraints, complete the task, and retain safe continuations.</p>
+<p><a href="https://arxiv.org/abs/2611.19047" class="paper-link">arXiv</a> · <a href="https://clmoro.github.io/cast/" class="paper-link">Project &amp; video</a></p>
+</section>
+</div>
+<div class="paper-card">
+<p><a href="images/vla-jumpstart.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/vla-jumpstart.png" class="paper-image img-fluid" alt="Overview of VLA jump-starting for reinforcement learning robotic agents"></a></p>
 <section id="vision-language-action-jump-starting-for-reinforcement-learning-robotic-agents" class="level3 paper-card-body">
 <h3 class="anchored" data-anchor-id="vision-language-action-jump-starting-for-reinforcement-learning-robotic-agents">Vision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents</h3>
 <p><strong>IEEE ICRA 2026 Workshop on RL4IL</strong></p>
@@ -195,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </div>
 <div class="paper-card">
-<p><a href="images/diffusion-sequence-models.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/diffusion-sequence-models.png" class="paper-image img-fluid" alt="Comparison of RoboMorph Transformer and diffusion sequence models"></a></p>
+<p><a href="images/diffusion-sequence-models.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/diffusion-sequence-models.png" class="paper-image img-fluid" alt="Comparison of RoboMorph Transformer and diffusion sequence models"></a></p>
 <section id="diffusion-sequence-models-for-generative-in-context-meta-learning-of-robot-dynamics" class="level3 paper-card-body">
 <h3 class="anchored" data-anchor-id="diffusion-sequence-models-for-generative-in-context-meta-learning-of-robot-dynamics">Diffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics</h3>
 <p><strong>IEEE CDC 2026</strong></p>
@@ -204,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </div>
 <div class="paper-card">
-<p><a href="images/synthla.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/synthla.png" class="paper-image img-fluid" alt="SynthLA framework for synthetic language-action policies and closed-loop robot control"></a></p>
+<p><a href="images/synthla.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="images/synthla.png" class="paper-image img-fluid" alt="SynthLA framework for synthetic language-action policies and closed-loop robot control"></a></p>
 <section id="synthla" class="level3 paper-card-body">
 <h3 class="anchored" data-anchor-id="synthla">SynthLA</h3>
 <p><strong>IEEE/RSJ IROS 2026</strong></p>
@@ -213,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </div>
 <div class="paper-card">
-<p><a href="images/generative-ai-rl-review.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/generative-ai-rl-review.png" class="paper-image img-fluid" alt="Overview of the duality between generative AI and reinforcement learning in robotics"></a></p>
+<p><a href="images/generative-ai-rl-review.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="images/generative-ai-rl-review.png" class="paper-image img-fluid" alt="Overview of the duality between generative AI and reinforcement learning in robotics"></a></p>
 <section id="the-duality-of-generative-ai-and-reinforcement-learning-in-robotics" class="level3 paper-card-body">
 <h3 class="anchored" data-anchor-id="the-duality-of-generative-ai-and-reinforcement-learning-in-robotics">The Duality of Generative AI and Reinforcement Learning in Robotics</h3>
 <p><strong>Information Fusion, 2025</strong></p>
@@ -228,20 +247,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
 <div class="interest-grid">
 <div class="interest-card">
-<p><strong>Generative Policies</strong></p>
-<p>Diffusion models, flow-based models, and generative priors for robot learning.</p>
+<p><strong>Generative Control</strong></p>
+<p>Turning pretrained generative models into controllers that meet new goals and constraints at run time.</p>
 </div>
 <div class="interest-card">
-<p><strong>Vision-Language-Action Models</strong></p>
-<p>Foundation models for grounding high-level semantics into robotic control.</p>
+<p><strong>Geometry of Steering</strong></p>
+<p>Local inverse geometry, controllability, and structured edits of frozen diffusion generators.</p>
 </div>
 <div class="interest-card">
-<p><strong>Reinforcement Learning</strong></p>
-<p>Exploration, jump-starting, robustness, and data-efficient skill acquisition.</p>
+<p><strong>Safety &amp; Viability</strong></p>
+<p>Certified action selection and preserving a generative policy’s future safe control authority.</p>
 </div>
 <div class="interest-card">
-<p><strong>Robot Manipulation</strong></p>
-<p>Real-world experimentation, sim-to-real learning, and embodied decision-making.</p>
+<p><strong>Learning Beyond Imitation</strong></p>
+<p>Generative priors, reinforcement learning, and adaptation for robot manipulation and embodied decision-making.</p>
 </div>
 </div>
 </section>

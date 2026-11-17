@@ -152,9 +152,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-overview" id="toc-research-overview" class="nav-link active" data-scroll-target="#research-overview">Research Overview</a></li>
   <li><a href="#main-research-directions" id="toc-main-research-directions" class="nav-link" data-scroll-target="#main-research-directions">Main Research Directions</a>
   <ul class="collapse">
-  <li><a href="#generative-imitation-learning-priors" id="toc-generative-imitation-learning-priors" class="nav-link" data-scroll-target="#generative-imitation-learning-priors">Generative Imitation Learning Priors</a></li>
-  <li><a href="#online-exploration-and-optimization" id="toc-online-exploration-and-optimization" class="nav-link" data-scroll-target="#online-exploration-and-optimization">Online Exploration and Optimization</a></li>
-  <li><a href="#real-world-robotics" id="toc-real-world-robotics" class="nav-link" data-scroll-target="#real-world-robotics">Real-World Robotics</a></li>
+  <li><a href="#geometry-of-generative-steering" id="toc-geometry-of-generative-steering" class="nav-link" data-scroll-target="#geometry-of-generative-steering">Geometry of Generative Steering</a></li>
+  <li><a href="#safe-generative-control-and-viability" id="toc-safe-generative-control-and-viability" class="nav-link" data-scroll-target="#safe-generative-control-and-viability">Safe Generative Control and Viability</a></li>
+  <li><a href="#learning-and-adaptation-beyond-demonstrations" id="toc-learning-and-adaptation-beyond-demonstrations" class="nav-link" data-scroll-target="#learning-and-adaptation-beyond-demonstrations">Learning and Adaptation Beyond Demonstrations</a></li>
+  <li><a href="#robotics-as-a-testbed" id="toc-robotics-as-a-testbed" class="nav-link" data-scroll-target="#robotics-as-a-testbed">Robotics as a Testbed</a></li>
   </ul></li>
   <li><a href="#research-experience" id="toc-research-experience" class="nav-link" data-scroll-target="#research-experience">Research Experience</a>
   <ul class="collapse">
@@ -193,26 +194,32 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="research-overview" class="level2">
 <h2 class="anchored" data-anchor-id="research-overview">Research Overview</h2>
-<p>My work lies at the intersection of <strong>generative modeling, reinforcement learning, and robotics</strong>.</p>
+<p>I work on <strong>generative control</strong>, at the intersection of generative modeling, control theory, optimization, and reinforcement learning.</p>
 <p>The central question behind my research is:</p>
 <blockquote class="blockquote">
-<p>How can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?</p>
+<p>How can a pretrained generative model meet new goals and constraints while retaining the behaviors that make it useful?</p>
 </blockquote>
-<p>My research investigates how <strong>generative priors can be combined with reinforcement learning</strong> to guide exploration and optimize behavior beyond the training data. I initially explored the <strong>out-of-distribution behavior of generative policies</strong>, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment.</p>
+<p>A generative model offers a rich distribution of possible outputs or actions. At deployment, we need to turn that distribution into useful decisions: change selected properties, respect constraints, and preserve the ability to keep acting. I study the <strong>geometry and control authority of frozen generators</strong>, and develop methods for steering and selecting their outputs without retraining the underlying model for each request.</p>
 </section>
 <section id="main-research-directions" class="level2">
 <h2 class="anchored" data-anchor-id="main-research-directions">Main Research Directions</h2>
-<section id="generative-imitation-learning-priors" class="level3">
-<h3 class="anchored" data-anchor-id="generative-imitation-learning-priors">Generative Imitation Learning Priors</h3>
-<p>I study <strong>generative policies as behavioral priors for robot learning</strong>, including diffusion and flow-based policies and vision-language-action models. I am particularly interested in their generalization and <strong>out-of-distribution behavior beyond the demonstrations used for training</strong>.</p>
+<section id="geometry-of-generative-steering" class="level3">
+<h3 class="anchored" data-anchor-id="geometry-of-generative-steering">Geometry of Generative Steering</h3>
+<p>In <strong>Spectral Steering</strong>, I study how a requested output change interacts with the local geometry of a frozen diffusion sampler. Request-specific analysis predicts when inverse correction can improve the direction of an edit; damped corrections and relinearization extend the approach to finite changes. The work connects structured generation with inverse problems across visual, audio, motion, and control tasks.</p>
+<p><a href="https://arxiv.org/abs/2611.19572">Spectral Steering — Under review</a></p>
 </section>
-<section id="online-exploration-and-optimization" class="level3">
-<h3 class="anchored" data-anchor-id="online-exploration-and-optimization">Online Exploration and Optimization</h3>
-<p>I investigate how <strong>generative priors can be combined with reinforcement learning</strong> to guide online exploration. The goal is to move beyond pure imitation learning, enabling agents to <strong>optimize and acquire behaviors beyond their training data</strong> through interaction with the environment.</p>
+<section id="safe-generative-control-and-viability" class="level3">
+<h3 class="anchored" data-anchor-id="safe-generative-control-and-viability">Safe Generative Control and Viability</h3>
+<p>In <strong>Certify, Then Select</strong>, I study how frozen diffusion policies can respond to constraints absent from their demonstrations. CAST certifies candidate action chunks before ranking them for task performance. CAST-V and CAST-VL account for <strong>policy-conditioned viability</strong>: whether the policy will still be able to produce safe continuations after the current action. This connects safety certification with the control authority available through finite sampling.</p>
+<p><a href="https://arxiv.org/abs/2611.19047">Certify, Then Select — Under review</a> · <a href="https://clmoro.github.io/cast/">Project &amp; video</a></p>
 </section>
-<section id="real-world-robotics" class="level3">
-<h3 class="anchored" data-anchor-id="real-world-robotics">Real-World Robotics</h3>
-<p>I validate these ideas on <strong>real robotic systems</strong>, with a focus on manipulation and embodied decision-making. My work connects generative modeling and reinforcement learning with real-world experimentation, multimodal perception, and sim-to-real evaluation.</p>
+<section id="learning-and-adaptation-beyond-demonstrations" class="level3">
+<h3 class="anchored" data-anchor-id="learning-and-adaptation-beyond-demonstrations">Learning and Adaptation Beyond Demonstrations</h3>
+<p>I also investigate how <strong>diffusion and flow policies, vision-language-action models, and generative dynamics models</strong> can support exploration and adaptation. My earlier work on VLA-guided reinforcement learning and generative in-context dynamics learning complements runtime control by studying how agents use prior knowledge and improve through interaction.</p>
+</section>
+<section id="robotics-as-a-testbed" class="level3">
+<h3 class="anchored" data-anchor-id="robotics-as-a-testbed">Robotics as a Testbed</h3>
+<p>Robotic manipulation, motion generation, and dynamical systems provide concrete settings in which goals, constraints, and model limitations interact. My work combines theoretical analysis with simulation and real-world robot learning, connecting generative methods to closed-loop decisions and physical task performance.</p>
 </section>
 </section>
 <section id="research-experience" class="level2">
@@ -220,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="ph.d.-researcher-idsia-usisupsi" class="level3">
 <h3 class="anchored" data-anchor-id="ph.d.-researcher-idsia-usisupsi">Ph.D.&nbsp;Researcher — IDSIA USI–SUPSI</h3>
 <p><strong>2024–present · Lugano, Switzerland</strong></p>
-<p>Research on generative optimization and exploration for robotic learning, with emphasis on diffusion/flow policies, VLA models, reinforcement learning, generative in-context learning, and multimodal foundation models.</p>
+<p>Research on generative control and robot learning, including geometric steering of frozen diffusion generators, certified action selection, policy-conditioned viability, generative priors for reinforcement learning, and in-context dynamics adaptation.</p>
 </section>
 <section id="visiting-m.sc.-researcher-iridia-université-libre-de-bruxelles" class="level3">
 <h3 class="anchored" data-anchor-id="visiting-m.sc.-researcher-iridia-université-libre-de-bruxelles">Visiting M.Sc. Researcher — IRIDIA, Université Libre de Bruxelles</h3>

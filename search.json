@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a Ph.D. researcher at IDSIA USI–SUPSI in Lugano, Switzerland, where I work on Generative AI for Robotic Systems.\nMy research lies at the intersection of generative modeling, reinforcement learning, optimization, and robotics, with a particular focus on generative policies, robot learning, and embodied intelligence.\nMy background is in automation, control, machine learning, and robotics. I received my M.Sc. and B.Sc. degrees in Automation Engineering from Politecnico di Milano. During my M.Sc., I was a visiting researcher at IRIDIA, Université Libre de Bruxelles, where I worked on SLAM for swarms of robots."
+    "text": "I am a Ph.D. researcher at IDSIA USI–SUPSI in Lugano, Switzerland, where I work on Generative AI for Robotic Systems.\nMy research focuses on generative control: steering pretrained generative models toward new goals and constraints, and understanding when their outputs can support reliable decisions. I connect local inverse geometry, safe action selection, and policy-conditioned viability with reinforcement learning and robotics.\nMy background is in automation, control, machine learning, and robotics. I received my M.Sc. and B.Sc. degrees in Automation Engineering from Politecnico di Milano. During my M.Sc., I was a visiting researcher at IRIDIA, Université Libre de Bruxelles, where I worked on SLAM for swarms of robots."
   },
   {
     "objectID": "about.html#beyond-research",
@@ -25,21 +25,21 @@
     "href": "index.html",
     "title": "Angelo Moroncelli",
     "section": "",
-    "text": "Ph.D. Researcher — Generative AI for Robotics\nIDSIA USI–SUPSI · Lugano, Switzerland\nI work at the intersection of generative modeling, reinforcement learning, and robotics. My research investigates how generative optimization can enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations. I initially explored the out-of-distribution behavior of generative policies, investigating how they behave beyond their training distribution. More recently, I have been studying how generative priors, such as diffusion and flow-based policies and vision-language-action models, can be integrated with reinforcement learning to guide exploration and optimize behavior beyond the training data.\nGoogle Scholar GitHub Email Download CV"
+    "text": "Ph.D. Researcher — Generative Control & Robot Learning\nIDSIA USI–SUPSI · Lugano, Switzerland\nI study generative control: how pretrained generative models can meet new goals and constraints at deployment. My work connects generative modeling, control, optimization, and reinforcement learning, with robotics as a central application.\nMy recent research asks how to steer frozen diffusion generators through their local geometry, and how to select safe, useful actions from generative policies while preserving their future ability to act. More broadly, I investigate how generative priors can support adaptation, exploration, and learning beyond demonstrations.\nGoogle Scholar GitHub Email Download CV"
   },
   {
     "objectID": "index.html#selected-research",
     "href": "index.html#selected-research",
     "title": "Angelo Moroncelli",
     "section": "Selected Research",
-    "text": "Selected Research\n\n\n\n\nVision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents\nIEEE ICRA 2026 Workshop on RL4IL\nUsing VLA priors to jump-start reinforcement-learning agents for robotic control.\narXiv\n\n\n\n\n\nDiffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics\nIEEE CDC 2026\nGenerative sequence modeling for in-context adaptation and learning of robot dynamics.\narXiv\n\n\n\n\n\nSynthLA\nIEEE/RSJ IROS 2026\nSynthetic language-action policies for zero-shot real-world manipulation through structured perception.\nPublications\n\n\n\n\n\nThe Duality of Generative AI and Reinforcement Learning in Robotics\nInformation Fusion, 2025\nA review of how generative AI and reinforcement learning complement each other in robotic systems.\nPublications\n\n\n\nView all publications →"
+    "text": "Selected Research\n\n\n\n\nSpectral Steering: Local Inverse Geometry for Frozen Diffusion Generators\nUnder review\nUsing request-dependent local geometry to steer frozen diffusion models toward new objectives while preserving other output properties.\narXiv\n\n\n\n\n\nCertify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies\nUnder review\nCertifying and ranking a frozen policy’s own actions to satisfy new constraints, complete the task, and retain safe continuations.\narXiv · Project & video\n\n\n\n\n\nVision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents\nIEEE ICRA 2026 Workshop on RL4IL\nUsing VLA priors to jump-start reinforcement-learning agents for robotic control.\narXiv\n\n\n\n\n\nDiffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics\nIEEE CDC 2026\nGenerative sequence modeling for in-context adaptation and learning of robot dynamics.\narXiv\n\n\n\n\n\nSynthLA\nIEEE/RSJ IROS 2026\nSynthetic language-action policies for zero-shot real-world manipulation through structured perception.\nPublications\n\n\n\n\n\nThe Duality of Generative AI and Reinforcement Learning in Robotics\nInformation Fusion, 2025\nA review of how generative AI and reinforcement learning complement each other in robotic systems.\nPublications\n\n\n\nView all publications →"
   },
   {
     "objectID": "index.html#research-interests",
     "href": "index.html#research-interests",
     "title": "Angelo Moroncelli",
     "section": "Research Interests",
-    "text": "Research Interests\n\n\nGenerative Policies\nDiffusion models, flow-based models, and generative priors for robot learning.\n\n\nVision-Language-Action Models\nFoundation models for grounding high-level semantics into robotic control.\n\n\nReinforcement Learning\nExploration, jump-starting, robustness, and data-efficient skill acquisition.\n\n\nRobot Manipulation\nReal-world experimentation, sim-to-real learning, and embodied decision-making."
+    "text": "Research Interests\n\n\nGenerative Control\nTurning pretrained generative models into controllers that meet new goals and constraints at run time.\n\n\nGeometry of Steering\nLocal inverse geometry, controllability, and structured edits of frozen diffusion generators.\n\n\nSafety & Viability\nCertified action selection and preserving a generative policy’s future safe control authority.\n\n\nLearning Beyond Imitation\nGenerative priors, reinforcement learning, and adaptation for robot manipulation and embodied decision-making."
   },
   {
     "objectID": "index.html#current-position",
@@ -81,28 +81,28 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My work lies at the intersection of generative modeling, reinforcement learning, and robotics.\nThe central question behind my research is:\n\nHow can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?\n\nMy research investigates how generative priors can be combined with reinforcement learning to guide exploration and optimize behavior beyond the training data. I initially explored the out-of-distribution behavior of generative policies, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment."
+    "text": "I work on generative control, at the intersection of generative modeling, control theory, optimization, and reinforcement learning.\nThe central question behind my research is:\n\nHow can a pretrained generative model meet new goals and constraints while retaining the behaviors that make it useful?\n\nA generative model offers a rich distribution of possible outputs or actions. At deployment, we need to turn that distribution into useful decisions: change selected properties, respect constraints, and preserve the ability to keep acting. I study the geometry and control authority of frozen generators, and develop methods for steering and selecting their outputs without retraining the underlying model for each request."
   },
   {
     "objectID": "research.html#research-overview",
     "href": "research.html#research-overview",
     "title": "Research",
     "section": "",
-    "text": "My work lies at the intersection of generative modeling, reinforcement learning, and robotics.\nThe central question behind my research is:\n\nHow can generative optimization enable robotic agents to move beyond the imitation of skills learned from labeled demonstrations?\n\nMy research investigates how generative priors can be combined with reinforcement learning to guide exploration and optimize behavior beyond the training data. I initially explored the out-of-distribution behavior of generative policies, studying how they behave when deployed beyond their training distribution. More recently, I have focused on integrating generative priors—such as diffusion and flow-based policies and vision-language-action models—with reinforcement learning, allowing robotic agents to leverage pretrained behaviors while continuing to improve through interaction with the environment."
+    "text": "I work on generative control, at the intersection of generative modeling, control theory, optimization, and reinforcement learning.\nThe central question behind my research is:\n\nHow can a pretrained generative model meet new goals and constraints while retaining the behaviors that make it useful?\n\nA generative model offers a rich distribution of possible outputs or actions. At deployment, we need to turn that distribution into useful decisions: change selected properties, respect constraints, and preserve the ability to keep acting. I study the geometry and control authority of frozen generators, and develop methods for steering and selecting their outputs without retraining the underlying model for each request."
   },
   {
     "objectID": "research.html#main-research-directions",
     "href": "research.html#main-research-directions",
     "title": "Research",
     "section": "Main Research Directions",
-    "text": "Main Research Directions\n\nGenerative Imitation Learning Priors\nI study generative policies as behavioral priors for robot learning, including diffusion and flow-based policies and vision-language-action models. I am particularly interested in their generalization and out-of-distribution behavior beyond the demonstrations used for training.\n\n\nOnline Exploration and Optimization\nI investigate how generative priors can be combined with reinforcement learning to guide online exploration. The goal is to move beyond pure imitation learning, enabling agents to optimize and acquire behaviors beyond their training data through interaction with the environment.\n\n\nReal-World Robotics\nI validate these ideas on real robotic systems, with a focus on manipulation and embodied decision-making. My work connects generative modeling and reinforcement learning with real-world experimentation, multimodal perception, and sim-to-real evaluation."
+    "text": "Main Research Directions\n\nGeometry of Generative Steering\nIn Spectral Steering, I study how a requested output change interacts with the local geometry of a frozen diffusion sampler. Request-specific analysis predicts when inverse correction can improve the direction of an edit; damped corrections and relinearization extend the approach to finite changes. The work connects structured generation with inverse problems across visual, audio, motion, and control tasks.\nSpectral Steering — Under review\n\n\nSafe Generative Control and Viability\nIn Certify, Then Select, I study how frozen diffusion policies can respond to constraints absent from their demonstrations. CAST certifies candidate action chunks before ranking them for task performance. CAST-V and CAST-VL account for policy-conditioned viability: whether the policy will still be able to produce safe continuations after the current action. This connects safety certification with the control authority available through finite sampling.\nCertify, Then Select — Under review · Project & video\n\n\nLearning and Adaptation Beyond Demonstrations\nI also investigate how diffusion and flow policies, vision-language-action models, and generative dynamics models can support exploration and adaptation. My earlier work on VLA-guided reinforcement learning and generative in-context dynamics learning complements runtime control by studying how agents use prior knowledge and improve through interaction.\n\n\nRobotics as a Testbed\nRobotic manipulation, motion generation, and dynamical systems provide concrete settings in which goals, constraints, and model limitations interact. My work combines theoretical analysis with simulation and real-world robot learning, connecting generative methods to closed-loop decisions and physical task performance."
   },
   {
     "objectID": "research.html#research-experience",
     "href": "research.html#research-experience",
     "title": "Research",
     "section": "Research Experience",
-    "text": "Research Experience\n\nPh.D. Researcher — IDSIA USI–SUPSI\n2024–present · Lugano, Switzerland\nResearch on generative optimization and exploration for robotic learning, with emphasis on diffusion/flow policies, VLA models, reinforcement learning, generative in-context learning, and multimodal foundation models.\n\n\nVisiting M.Sc. Researcher — IRIDIA, Université Libre de Bruxelles\n2023 · Brussels, Belgium\nDeveloped Byzantine-fault-tolerant Swarm-SLAM methods using blockchain-based smart contracts and geometric consensus."
+    "text": "Research Experience\n\nPh.D. Researcher — IDSIA USI–SUPSI\n2024–present · Lugano, Switzerland\nResearch on generative control and robot learning, including geometric steering of frozen diffusion generators, certified action selection, policy-conditioned viability, generative priors for reinforcement learning, and in-context dynamics adaptation.\n\n\nVisiting M.Sc. Researcher — IRIDIA, Université Libre de Bruxelles\n2023 · Brussels, Belgium\nDeveloped Byzantine-fault-tolerant Swarm-SLAM methods using blockchain-based smart contracts and geometric consensus."
   },
   {
     "objectID": "research.html#funded-projects-industrial-collaborations",
@@ -123,7 +123,7 @@
     "href": "publications.html#section",
     "title": "Publications",
     "section": "2026",
-    "text": "2026\n\nAngelo Moroncelli, R. Zanetti, M. Maccarini, and L. Roveda.\nVision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents.\nIEEE ICRA 2026 Workshop on Reinforcement Learning for Imitation Learning (RL4IL).\npaper\nAngelo Moroncelli*, M. Rufolo*, G. C. Aydin*, A. A. Shahid, and L. Roveda.\nDiffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics.\nIEEE Conference on Decision and Control (CDC), 2026.\npaper\nM. Maccarini*, Angelo Moroncelli*, A. A. Shahid, S. Mara, M. Nava, and L. Roveda.\nSynthLA: Synthetic Language–Action Policies for Zero-shot Real-world Manipulation via Structured Perception.\nIEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.\nSamuele Mara, Angelo Moroncelli, Marco Maccarini, and Loris Roveda.\nFruit3DGS: A General Fruit Counting and Localization Framework Leveraging Semantic-Guided 3D Gaussian Splatting and Contrastive Learning.\nIEEE ICRA 2026 Workshop on Agricultural Robotics.\nBest Paper Award for Methodological Contribution."
+    "text": "2026\n\nAngelo Moroncelli, Alessandro Leanza, and Loris Roveda.\nSpectral Steering: Local Inverse Geometry for Frozen Diffusion Generators.\nUnder review.\narXiv:2611.19572\nAngelo Moroncelli and Loris Roveda.\nCertify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies.\nUnder review.\narXiv:2611.19047 · Project & video\nAngelo Moroncelli, R. Zanetti, M. Maccarini, and L. Roveda.\nVision-Language-Action Jump-Starting for Reinforcement Learning Robotic Agents.\nIEEE ICRA 2026 Workshop on Reinforcement Learning for Imitation Learning (RL4IL).\npaper\nAngelo Moroncelli*, M. Rufolo*, G. C. Aydin*, A. A. Shahid, and L. Roveda.\nDiffusion Sequence Models for Generative In-Context Meta-Learning of Robot Dynamics.\nIEEE Conference on Decision and Control (CDC), 2026.\npaper\nM. Maccarini*, Angelo Moroncelli*, A. A. Shahid, S. Mara, M. Nava, and L. Roveda.\nSynthLA: Synthetic Language–Action Policies for Zero-shot Real-world Manipulation via Structured Perception.\nIEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.\nSamuele Mara, Angelo Moroncelli, Marco Maccarini, and Loris Roveda.\nFruit3DGS: A General Fruit Counting and Localization Framework Leveraging Semantic-Guided 3D Gaussian Splatting and Contrastive Learning.\nIEEE ICRA 2026 Workshop on Agricultural Robotics.\nBest Paper Award for Methodological Contribution."
   },
   {
     "objectID": "publications.html#section-1",
@@ -145,5 +145,12 @@
     "title": "Publications",
     "section": "Profiles",
     "text": "Profiles\n\nGoogle Scholar\nGitHub"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV (PDF)\nGenerative control, geometric steering of frozen generators, safe action selection, and robot learning.\nUpdated November 2026.\n\n  Download the curriculum vitae as a PDF."
   }
 ]
