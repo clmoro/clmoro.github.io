@@ -5,10 +5,8 @@ toc: false
 ---
 
 ::: {.hero}
-::: {.hero-photo}
+::: {.hero-photo .hero-photo-left}
 ![](images/profile.jpeg){fig-alt="Angelo Moroncelli working with a robot in the IDSIA robotics lab"}
-
-![](images/alpinism-1.jpeg){fig-alt="Angelo Moroncelli climbing at Punta Albigna, Switzerland"}
 :::
 
 ::: {.hero-text}
@@ -26,6 +24,10 @@ My recent research asks how to **steer frozen diffusion generators** through the
 [GitHub](https://github.com/clmoro){.btn .btn-outline-primary}
 [Email](mailto:angelo.moroncelli@supsi.ch){.btn .btn-outline-primary}
 [Download CV](files/cv.pdf){.btn .btn-outline-primary}
+:::
+
+::: {.hero-photo .hero-photo-right}
+![](images/alpinism-1.jpeg){fig-alt="Angelo Moroncelli climbing at Punta Albigna, Switzerland"}
 :::
 :::
 
