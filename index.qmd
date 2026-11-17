@@ -1,5 +1,6 @@
 ---
 title: "Angelo Moroncelli"
+title-block-style: none
 page-layout: full
 toc: false
 ---
